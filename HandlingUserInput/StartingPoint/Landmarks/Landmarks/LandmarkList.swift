@@ -8,14 +8,22 @@ A view showing a list of landmarks.
 import SwiftUI
 
 struct LandmarkList: View {
-    @State var showFavoritesOnly = false
+    @State var showFavoritesOnly = false //use this to keep users choice
+    
     var body: some View {
         NavigationView {
-            List(landmarkData) { landmark in
-                 if !self.showFavoritesOnly || landmark.isFavorite {
-                NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
-                    LandmarkRow(landmark: landmark)
+            
+            List
+            {
+                Toggle(isOn: $showFavoritesOnly) { //binding to state variable
+                    Text("Favorites only") //this is the switch title
                 }
+                ForEach(landmarkData){ landmark in
+                    if !self.showFavoritesOnly || landmark.isFavorite {
+                        NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
+                            LandmarkRow(landmark: landmark)
+                        }
+                    }
                 }
             }
             .navigationBarTitle(Text("Landmarks"))
