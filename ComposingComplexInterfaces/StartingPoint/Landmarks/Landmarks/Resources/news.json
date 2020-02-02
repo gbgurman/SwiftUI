@@ -1,0 +1,110 @@
+[{
+    "id":"asdfgh",
+    "title":"Baby Panda and his funny moments",
+    "description":"Description jkdfs dfdf sdfs fdsf sfd fs",
+    "isFeatured": true,
+    "isFavorite": true,
+    "source":"BBC",
+    "category":"Breaking"
+}
+,{
+    "id":"fdggdf",
+    "title":"Wonderful views from Thailand",
+    "description":"sdfsd jkdfs dfdf sdfs fdsf sfd fs",
+    "isFeatured": false,
+    "isFavorite": false,
+    "source":"ABC",
+    "category":"Local"
+}
+,{
+    "id":"ghfg",
+    "title":"The UK has finally left the EU",
+    "description":"fdsf jkdfs dfdf sdfs fdsf sfd fs",
+    "isFeatured": false,
+    "isFavorite": true,
+    "source":"ABC",
+    "category":"Science"
+}
+,{
+    "id":"ewrw",
+    "title":"Every citizen will be considered",
+    "description":"fdgdg jkdfs dfdf sdfs fdsf sfd fs",
+    "isFeatured": true,
+    "isFavorite": false,
+    "source":"ABC",
+    "category":"Breaking"
+}
+,{
+    "id":"hyh",
+    "title":"B title",
+    "description":"Meteorites found in the desert",
+    "isFeatured": true,
+    "isFavorite": true,
+    "source":"BBC",
+    "category":"Breaking"
+}
+,{
+    "id":"uju",
+    "title":"National Parks are becoming popular",
+    "description":"sdfsd jkdfs dfdf sdfs fdsf sfd fs",
+    "isFeatured": false,
+    "isFavorite": false,
+    "source":"ABC",
+    "category":"Local"
+}
+,{
+    "id":"kkk",
+    "title":"Baby panda born in China",
+    "description":"fdsf jkdfs dfdf sdfs fdsf sfd fs",
+    "isFeatured": false,
+    "isFavorite": true,
+    "source":"ABC",
+    "category":"Science"
+}
+,{
+    "id":"lll",
+    "title":"Earthquake in New Zealand",
+    "description":"fdgdg jkdfs dfdf sdfs fdsf sfd fs",
+    "isFeatured": true,
+    "isFavorite": false,
+    "source":"BBC",
+    "category":"Breaking"
+}
+,{
+    "id":"mmm",
+    "title":"The Morland Park is waiting for joggers",
+    "description":"The Morland Park is waiting for joggers",
+    "isFeatured": true,
+    "isFavorite": false,
+    "source":"BBC",
+    "category":"Local"
+}
+,{
+    "id":"nnn",
+    "title":"New species discovered in Arctic",
+    "description":"New species discovered in Arctic",
+    "isFeatured": true,
+    "isFavorite": false,
+    "source":"BBC",
+    "category":"Science"
+}
+,{
+    "id":"ooo",
+    "title":"Are vaccines necessary?",
+    "description":"Are vaccines necessary?",
+    "isFeatured": true,
+    "isFavorite": false,
+    "source":"BBC",
+    "category":"Science"
+}
+,{
+    "id":"ppp",
+    "title":"Local artists gathered for the environment",
+    "description":"Local artists gathered for the environment",
+    "isFeatured": true,
+    "isFavorite": false,
+    "source":"BBC",
+    "category":"Local"
+}
+
+]
