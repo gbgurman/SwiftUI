@@ -25,9 +25,13 @@ struct CategoryRow: View {
             ScrollView(.horizontal, showsIndicators: false) {
                  HStack(alignment: .top, spacing: 0) {
                     ForEach(self.items) { landmark in
-                        NavigationLink(destination: LandmarkDetail(landmark: landmark)){
+                        NavigationLink(
+                            destination: LandmarkDetail(
+                                landmark: landmark
+                            )
+                        ){
                             CategoryItem(landmark: landmark)
-                            //Text(landmark.name)
+                            /*Text(landmark.name)*/
                         }
                     
                        
@@ -42,6 +46,7 @@ struct CategoryRow: View {
 
 struct CategoryItem: View {
     var landmark: Landmark
+    
     var body: some View {
         VStack(alignment: .leading) {
             landmark.image
@@ -49,6 +54,7 @@ struct CategoryItem: View {
                 .resizable()
                 .frame(width: 155, height: 155)
                 .cornerRadius(5)
+            
             Text(landmark.name)
                 .foregroundColor(.primary)
                 .font(.caption)
